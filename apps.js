@@ -16,3 +16,8 @@ function addTask() {
   list.appendChild(item);
   document.getElementById("taskInput").value = "";
 }
+document.getElementById("password").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
+    checkPassword();
+  }
+});
