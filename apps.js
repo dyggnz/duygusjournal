@@ -1,6 +1,6 @@
 function checkPassword() {
   const pass = document.getElementById("password").value;
-  if (pass === "1987") {
+  if (pass === "duygu") {
     window.location.href = "dashboard.html";
   } else {
     alert("Yanlış şifre 🛑");
@@ -23,7 +23,7 @@ document.getElementById("password").addEventListener("keypress", function(e) {
 });
 function checkPassword() {
   const pass = document.getElementById("password").value;
-  if (pass === "1987") {
+  if (pass === "duygu") {
     window.location.href = "dashboard.html";
   } else {
     alert("Yanlış şifre 🛑");
