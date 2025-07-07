@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>IMAT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hoş geldin Duygu 🌞</h1>
+    <p>“Her kavram seni hayaline bir adım daha yaklaştırır.”</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bugünkü Plan</h2>
+      <ul>
+        <li>📖 Konu: Enzimler</li>
+        <li>🕒 Süre: 90 dakika</li>
+        <li>📚 Kaynak: EnterMedSchool</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Yeni görev gir">
+      <button onclick="addTask()">Ekle</button>
+      <ul id="todoList"></ul>
+    </section>
+
+    <section>
+      <h2>🎶 Study Playlist</h2>
+      <iframe src="https://open.spotify.com/embed/playlist/YOUR_PLAYLIST_ID"
+        width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen"
+        loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>duygusjournal.com • Senin yolun, senin ritmin 🎧</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
